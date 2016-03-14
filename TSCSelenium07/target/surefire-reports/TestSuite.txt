@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.963 sec <<< FAILURE!
+testRegisPass(lannt.Test.RegisTest)  Time elapsed: 17.944 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"name","selector":"id_gender"}
+Command duration or timeout: 10.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'Yen-PC', ip: '192.168.1.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b26d48e-feb6-4dc0-81cf-90d322dd633c
+*** Element info: {Using=name, value=id_gender}
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Yen/AppData/Local/Temp/anonymous4024512638386097486webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10723)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Yen/AppData/Local/Temp/anonymous4024512638386097486webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+
