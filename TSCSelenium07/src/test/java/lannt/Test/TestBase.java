@@ -16,6 +16,7 @@ public class TestBase {
     protected Properties p;
 	protected WebDriver driver;
 	protected String urlBase;
+	
 
 	@BeforeClass
     public void beforeClass() throws IOException {
